@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>أسترو سنتر | تفوّق في مدرستك وبرمج مستقبلك</title>
+  <meta name="description" content="أسترو سنتر مركز تعليمي يجمع بين المواد الدراسية والبرمجة في رحلة فضائية ممتعة، لأعمار 9–18 سنة.">
+  <meta name="theme-color" content="#0B0726">
+  <meta property="og:title" content="أسترو سنتر">
+  <meta property="og:description" content="المواد الدراسية أولاً، والبرمجة مهارة إضافية — لأعمار 9–18 سنة.">
+  <meta property="og:image" content="assets/logo-600.png">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+  <!-- ============ Navbar ============ -->
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="التنقل الرئيسي">
+      <a class="navbar__logo" href="#top" aria-label="أسترو سنتر — أعلى الصفحة">
+        <img src="assets/logo-600.png" alt="شعار أسترو سنتر" width="96" height="52">
+      </a>
+
+      <ul class="navbar__links" id="nav-menu">
+        <li><a href="#stations">المحطات</a></li>
+        <li><a href="#programs">البرامج</a></li>
+        <li><a href="#how">كيف نعمل</a></li>
+        <li><a href="#faq">الأسئلة</a></li>
+        <li><a href="#register">سجّل الآن</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <a class="btn btn--primary btn--nav" href="#register">احجز مقعد طفلك</a>
+        <button class="navbar__toggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav-menu">
+          <svg class="icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="glow glow--violet hero__glow-1" aria-hidden="true"></div>
+      <div class="glow glow--orange hero__glow-2" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content" data-reveal>
+          <span class="pill pill--mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 6.9H22l-6 4.6 2.3 7.1L12 16.2 5.7 20.6 8 13.5 2 8.9h7.6z"/></svg>
+            المواد الدراسية أولاً · البرمجة مهارة إضافية<span class="pill__age"> · <span class="num">9–18</span> سنة</span>
+          </span>
+
+          <h1 id="hero-title" class="hero__title">
+            أسترو سنتر… حيث <span class="text-orange">تتفوق في مدرستك</span> وتبرمج <span class="text-mint">مستقبلك</span>
+          </h1>
+
+          <p class="hero__lead">مركز تعليمي يجمع بين المواد الدراسية والبرمجة في رحلة فضائية ممتعة، لأعمار <span class="num">9–18</span> سنة.</p>
+
+          <div class="hero__subjects">
+            <span class="hero__subjects-label">نشرح منهج المدرسة في:</span>
+            <ul class="chips">
+              <li class="chip chip--orange">رياضيات</li>
+              <li class="chip chip--mint">علوم</li>
+              <li class="chip chip--gold">عربي</li>
+              <li class="chip chip--violet">إنجليزي</li>
+              <li class="chip chip--extra">+ البرمجة كمهارة إضافية</li>
+            </ul>
+          </div>
+
+          <div class="btn-row">
+            <a class="btn btn--primary btn--lg" href="#register">
+              احجز مقعد طفلك
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg>
+            </a>
+            <a class="btn btn--secondary btn--lg" href="#programs">شاهد البرامج</a>
+          </div>
+        </div>
+
+        <!-- Captain Astro illustration -->
+        <div class="hero__visual" data-reveal>
+          <div class="mascot">
+            <svg class="mascot__svg" viewBox="0 0 520 520" role="img" aria-label="كابتن أسترو: رائد فضاء ودود يحمل حاسوباً محمولاً تظهر عليه أكواد برمجية وبجانبه كتب مدرسية">
+              <defs>
+                <radialGradient id="hglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="60%" stop-color="#5B2BB0" stop-opacity=".18"/><stop offset="100%" stop-color="#0B0726" stop-opacity="0"/></radialGradient>
+                <linearGradient id="hsuit" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#D9D0FF"/></linearGradient>
+                <linearGradient id="hvisor" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#5B2BB0"/><stop offset="100%" stop-color="#120A2E"/></linearGradient>
+              </defs>
+              <circle cx="260" cy="270" r="240" fill="url(#hglow)"/>
+              <ellipse class="orbit-spin" cx="260" cy="300" rx="246" ry="74" fill="none" stroke="#FF9F1C" stroke-width="3" stroke-opacity=".75" transform="rotate(-12 260 300)"/>
+              <ellipse cx="260" cy="300" rx="200" ry="56" fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="4 10" stroke-opacity=".8" transform="rotate(-12 260 300)"/>
+              <g class="mascot__body">
+                <rect x="160" y="196" width="200" height="196" rx="52" fill="#8B5CF6" stroke="#120A2E" stroke-width="5"/>
+                <line x1="260" y1="58" x2="260" y2="28" stroke="#120A2E" stroke-width="5" stroke-linecap="round"/>
+                <path d="M260 6l5.5 11.3 12.5 1.8-9 8.8 2.1 12.4L260 34.4l-11.1 5.9 2.1-12.4-9-8.8 12.5-1.8z" fill="#FFD166" stroke="#120A2E" stroke-width="3" stroke-linejoin="round"/>
+                <rect x="196" y="236" width="128" height="140" rx="46" fill="url(#hsuit)" stroke="#120A2E" stroke-width="5"/>
+                <rect x="198" y="364" width="48" height="74" rx="20" fill="url(#hsuit)" stroke="#120A2E" stroke-width="5"/>
+                <rect x="274" y="364" width="48" height="74" rx="20" fill="url(#hsuit)" stroke="#120A2E" stroke-width="5"/>
+                <rect x="192" y="420" width="58" height="28" rx="12" fill="#5B2BB0" stroke="#120A2E" stroke-width="5"/>
+                <rect x="270" y="420" width="58" height="28" rx="12" fill="#5B2BB0" stroke="#120A2E" stroke-width="5"/>
+                <rect x="146" y="120" width="26" height="60" rx="13" fill="#D9D0FF" stroke="#120A2E" stroke-width="5"/>
+                <rect x="348" y="120" width="26" height="60" rx="13" fill="#D9D0FF" stroke="#120A2E" stroke-width="5"/>
+                <circle cx="260" cy="150" r="102" fill="url(#hsuit)" stroke="#120A2E" stroke-width="5"/>
+                <ellipse cx="260" cy="158" rx="76" ry="64" fill="url(#hvisor)" stroke="#120A2E" stroke-width="5"/>
+                <path d="M210 118c14-18 40-24 62-18" fill="none" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+                <path d="M222 164q11-16 22 0" fill="none" stroke="#2EE6A6" stroke-width="7" stroke-linecap="round"/>
+                <path d="M276 164q11-16 22 0" fill="none" stroke="#2EE6A6" stroke-width="7" stroke-linecap="round"/>
+                <path d="M246 186q14 13 28 0" fill="none" stroke="#2EE6A6" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="214" cy="186" r="7" fill="#FF5C7A" fill-opacity=".55"/>
+                <circle cx="306" cy="186" r="7" fill="#FF5C7A" fill-opacity=".55"/>
+                <rect x="168" y="270" width="184" height="104" rx="12" fill="#120A2E" stroke="#120A2E" stroke-width="5"/>
+                <rect x="176" y="278" width="168" height="88" rx="8" fill="#2A1065"/>
+                <rect class="code-line" x="190" y="294" width="64" height="8" rx="4" fill="#2EE6A6"/>
+                <rect class="code-line" x="262" y="294" width="40" height="8" rx="4" fill="#FF9F1C"/>
+                <rect class="code-line" x="206" y="312" width="90" height="8" rx="4" fill="#8B5CF6"/>
+                <rect class="code-line" x="206" y="330" width="52" height="8" rx="4" fill="#FFD166"/>
+                <rect class="code-line" x="266" y="330" width="58" height="8" rx="4" fill="#2EE6A6"/>
+                <rect class="code-line" x="190" y="348" width="38" height="8" rx="4" fill="#FF9F1C"/>
+                <path d="M140 372h240l22 26H118z" fill="#C9BFEF" stroke="#120A2E" stroke-width="5" stroke-linejoin="round"/>
+                <circle cx="160" cy="352" r="20" fill="url(#hsuit)" stroke="#120A2E" stroke-width="5"/>
+                <circle cx="360" cy="352" r="20" fill="url(#hsuit)" stroke="#120A2E" stroke-width="5"/>
+                <rect x="40" y="414" width="112" height="28" rx="7" fill="#FF9F1C" stroke="#120A2E" stroke-width="4"/>
+                <rect x="50" y="386" width="96" height="28" rx="7" fill="#2EE6A6" stroke="#120A2E" stroke-width="4"/>
+                <rect x="36" y="358" width="104" height="28" rx="7" fill="#8B5CF6" stroke="#120A2E" stroke-width="4"/>
+                <line x1="56" y1="428" x2="132" y2="428" stroke="#120A2E" stroke-width="3" stroke-opacity=".5"/>
+                <line x1="64" y1="400" x2="128" y2="400" stroke="#120A2E" stroke-width="3" stroke-opacity=".5"/>
+                <line x1="52" y1="372" x2="120" y2="372" stroke="#120A2E" stroke-width="3" stroke-opacity=".5"/>
+              </g>
+              <path class="twinkle" d="M440 70l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#FFD166"/>
+              <path class="twinkle twinkle--2" d="M70 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#8B5CF6"/>
+              <path class="twinkle twinkle--3" d="M470 400l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#2EE6A6"/>
+            </svg>
+
+            <div class="float-planet float-planet--1">
+              <span class="planet planet--orange planet--md"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M7 4v6M4 7h6M14 7h6M5 15l4 4M9 15l-4 4M14 16h6M14 19h6"/></svg></span>
+              <span class="float-planet__label">رياضيات</span>
+            </div>
+            <div class="float-planet float-planet--2">
+              <span class="planet planet--mint planet--md"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2" aria-hidden="true"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.6" fill="#120A2E"/></svg></span>
+              <span class="float-planet__label">علوم</span>
+            </div>
+            <div class="float-planet float-planet--3">
+              <span class="planet planet--gold planet--md planet__glyph">ض</span>
+              <span class="float-planet__label">عربي</span>
+            </div>
+            <div class="float-planet float-planet--4">
+              <span class="planet planet--violet planet--md planet__glyph planet__glyph--latin">Aa</span>
+              <span class="float-planet__label">إنجليزي</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Trust strip ============ -->
+    <section class="trust" aria-label="مميزات سريعة">
+      <div class="container">
+        <ul class="trust__list" data-reveal>
+          <li class="trust__item">
+            <span class="icon-box icon-box--mint"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H4z"/><path d="M20 5h-4a2 2 0 0 0-2 2M20 5v13h-6"/></svg></span>
+            شرح مبسط لمنهج المدرسة
+          </li>
+          <li class="trust__item">
+            <span class="icon-box icon-box--violet"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></span>
+            متابعة شهرية لولي الأمر
+          </li>
+          <li class="trust__item">
+            <span class="icon-box icon-box--gold"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5M15 15c3 0 6 1.5 6 4"/></svg></span>
+            مجموعات صغيرة
+          </li>
+          <li class="trust__item">
+            <span class="icon-box icon-box--orange"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></svg></span>
+            مشاريع برمجية حقيقية
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Two missions ============ -->
+    <section class="section section--band" id="missions" aria-labelledby="missions-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">المهمة الأساسية</span>
+          <h2 id="missions-title">مهمتان في مركز واحد</h2>
+          <p>المواد الدراسية هي أساس رحلتنا، والبرمجة مهارة إضافية تقوّي فهم طفلك وطريقة تفكيره.</p>
+        </header>
+
+        <div class="missions">
+          <svg class="missions__orbit" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true"><path d="M120 220 C 420 20, 780 20, 1080 220" fill="none" stroke="#FF9F1C" stroke-width="2.5" stroke-dasharray="6 10" stroke-opacity=".8"/></svg>
+
+          <article class="card mission" data-reveal>
+            <div class="mission__top">
+              <span class="planet planet--violet planet--lg"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 9L12 4 2 9l10 5 10-5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg></span>
+              <span class="badge">المهمة الأولى</span>
+            </div>
+            <h3 class="mission__title">مهمة التفوق الدراسي</h3>
+            <p class="mission__desc">شرح مبسط لمنهج المدرسة يربط الدرس بالفهم، لا بالحفظ فقط، مع تدريب منتظم يثبت المعلومة.</p>
+            <ul class="tiles">
+              <li class="tile"><span class="planet planet--orange planet--sm"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M7 4v6M4 7h6M14 7h6M5 15l4 4M9 15l-4 4M14 16h6M14 19h6"/></svg></span><strong>رياضيات</strong><span>فهم القواعد وحل المسائل خطوة بخطوة</span></li>
+              <li class="tile"><span class="planet planet--mint planet--sm"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2" aria-hidden="true"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/></svg></span><strong>علوم</strong><span>أمثلة وتجارب تقرّب المفاهيم</span></li>
+              <li class="tile"><span class="planet planet--gold planet--sm planet__glyph">ض</span><strong>اللغة العربية</strong><span>قراءة وقواعد وتعبير</span></li>
+              <li class="tile"><span class="planet planet--violet planet--sm planet__glyph planet__glyph--latin">Aa</span><strong>اللغة الإنجليزية</strong><span>مفردات وقواعد ومحادثة</span></li>
+            </ul>
+            <p class="mission__foot"><svg class="check" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>شرح مرتبط بمنهج المدرسة لكل مرحلة دراسية</p>
+          </article>
+
+          <article class="card mission" data-reveal>
+            <div class="mission__top">
+              <span class="planet planet--mint planet--lg"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></svg></span>
+              <span class="badge">المهمة الثانية</span>
+            </div>
+            <h3 class="mission__title">مهمة البرمجة</h3>
+            <p class="mission__desc">إلى جانب المذاكرة، يتعلم طفلك التفكير كمبرمج ويحوّل أفكاره إلى مشاريع يصنعها بنفسه خطوة بخطوة.</p>
+            <ul class="tiles">
+              <li class="tile"><span class="planet planet--mint planet--sm"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="8" height="7" rx="2"/><rect x="13" y="4" width="8" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/></svg></span><strong class="num">Scratch</strong><span>برمجة بالكتل لبداية ممتعة</span></li>
+              <li class="tile"><span class="planet planet--orange planet--sm"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></svg></span><strong class="num">Python</strong><span>لغة برمجة حقيقية للمراحل الأكبر</span></li>
+              <li class="tile"><span class="planet planet--gold planet--sm"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#120A2E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15l-3-3a22 22 0 0 1 2-4A13 13 0 0 1 22 2c0 2.7-.8 7.5-6 11a22 22 0 0 1-4 2z"/><path d="M9 12H4s.6-3 2-4c1.6-1.1 5 0 5 0M12 15v5s3-.6 4-2c1.1-1.6 0-5 0-5"/></svg></span><strong>مشاريع حقيقية</strong><span>ألعاب وتطبيقات يصنعها بنفسه</span></li>
+              <li class="tile"><span class="planet planet--violet planet--sm"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></span><strong>التفكير المنطقي</strong><span>تقسيم المشكلة إلى خطوات واضحة</span></li>
+            </ul>
+            <p class="mission__foot"><svg class="check" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>برمجة مرتبطة بدروس الرياضيات والعلوم</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Galaxy map / programs ============ -->
+    <section class="section" id="programs" aria-labelledby="programs-title">
+      <div class="programs__ring" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">البرامج</span>
+          <h2 id="programs-title">خريطة المجرة</h2>
+          <p>لكل مرحلة عمرية كوكب خاص بها: المواد الدراسية في المركز، والبرمجة تدور حولها كمهارة إضافية.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card program" data-reveal>
+            <div class="program__top">
+              <span class="planet planet--mint planet--xl" aria-hidden="true"></span>
+              <span class="age age--mint"><span class="num">9–12</span> سنة</span>
+            </div>
+            <h3>كوكب المستكشفين</h3>
+            <dl class="program__meta">
+              <div><dt class="dt--main">المواد الدراسية · الأساس</dt><dd><ul class="mini-chips"><li>رياضيات</li><li>علوم</li><li>عربي</li><li>إنجليزي</li></ul></dd></div>
+              <div><dt>+ مهارة إضافية: البرمجة</dt><dd><span class="num">Scratch</span> وأساسيات التفكير البرمجي</dd></div>
+              <div><dt>عدد الحصص</dt><dd><span class="placeholder">يحدد لاحقاً</span></dd></div>
+            </dl>
+            <a class="btn btn--secondary btn--block" href="#register">اعرف التفاصيل</a>
+          </article>
+
+          <article class="card program" data-reveal>
+            <div class="program__top">
+              <span class="planet planet--violet planet--xl" aria-hidden="true"></span>
+              <span class="age age--violet"><span class="num">12–15</span> سنة</span>
+            </div>
+            <h3>كوكب المبتكرين</h3>
+            <dl class="program__meta">
+              <div><dt class="dt--main">المواد الدراسية · الأساس</dt><dd><ul class="mini-chips"><li>رياضيات</li><li>علوم</li><li>عربي</li><li>إنجليزي</li></ul></dd></div>
+              <div><dt>+ مهارة إضافية: البرمجة</dt><dd>من <span class="num">Scratch</span> إلى <span class="num">Python</span></dd></div>
+              <div><dt>عدد الحصص</dt><dd><span class="placeholder">يحدد لاحقاً</span></dd></div>
+            </dl>
+            <a class="btn btn--secondary btn--block" href="#register">اعرف التفاصيل</a>
+          </article>
+
+          <article class="card program" data-reveal>
+            <div class="program__top">
+              <span class="planet planet--orange planet--xl" aria-hidden="true"></span>
+              <span class="age age--orange"><span class="num">15–18</span> سنة</span>
+            </div>
+            <h3>كوكب الرواد</h3>
+            <dl class="program__meta">
+              <div><dt class="dt--main">المواد الدراسية · الأساس</dt><dd><ul class="mini-chips"><li>رياضيات</li><li>علوم</li><li>عربي</li><li>إنجليزي</li></ul></dd></div>
+              <div><dt>+ مهارة إضافية: البرمجة</dt><dd><span class="num">Python</span> وبناء مشاريع متكاملة</dd></div>
+              <div><dt>عدد الحصص</dt><dd><span class="placeholder">يحدد لاحقاً</span></dd></div>
+            </dl>
+            <a class="btn btn--secondary btn--block" href="#register">اعرف التفاصيل</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4 stations ============ -->
+    <section class="section section--band" id="stations" aria-labelledby="stations-title">
+      <span id="how" class="anchor" aria-hidden="true"></span>
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">كيف نعمل</span>
+          <h2 id="stations-title">رحلة طفلك في <span class="num">4</span> محطات</h2>
+        </header>
+
+        <ol class="stations" data-reveal>
+          <li class="station">
+            <span class="planet planet--mint station__num num">1</span>
+            <h3>تقييم المستوى</h3>
+            <p>نتعرف على مستوى طفلك في المواد والبرمجة قبل أي خطوة.</p>
+          </li>
+          <li class="station">
+            <span class="planet planet--violet station__num num station__num--light">2</span>
+            <h3>خطة مخصصة</h3>
+            <p>نضع خطة تناسب احتياجه الدراسي وعمره واهتماماته.</p>
+          </li>
+          <li class="station">
+            <span class="planet planet--gold station__num num">3</span>
+            <h3>حصص ومشاريع</h3>
+            <p>حصص تفاعلية في مجموعات صغيرة، ومشاريع برمجية يبنيها بيده.</p>
+          </li>
+          <li class="station">
+            <span class="planet planet--orange station__num num">4</span>
+            <h3>تقرير لولي الأمر</h3>
+            <p>تقرير شهري واضح يوضح أين وصل طفلك وما الخطوة التالية.</p>
+          </li>
+        </ol>
+
+        <div class="center">
+          <a class="btn btn--primary btn--lg" href="#register">ابدأ بتقييم مستوى طفلك</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Why Astro ============ -->
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">المميزات</span>
+          <h2 id="why-title">لماذا أسترو سنتر؟</h2>
+        </header>
+
+        <div class="grid-3">
+          <article class="card feature" data-reveal>
+            <span class="feature__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></span>
+            <h3>ربط البرمجة بالمنهج</h3>
+            <p>نستخدم البرمجة لتوضيح دروس الرياضيات والعلوم، فيفهم طفلك المادة بطريقة عملية.</p>
+          </article>
+          <article class="card feature" data-reveal>
+            <span class="feature__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg></span>
+            <h3>التفكير المنطقي</h3>
+            <p>تحليل المشكلات وتقسيمها إلى خطوات مهارة تفيده في كل مادة وفي حياته اليومية.</p>
+          </article>
+          <article class="card feature" data-reveal>
+            <span class="feature__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9a2.2 2.2 0 0 0-2.9-.1z"/><path d="M12 15l-3-3a22 22 0 0 1 2-4A13 13 0 0 1 22 2c0 2.7-.8 7.5-6 11a22 22 0 0 1-4 2z"/><path d="M9 12H4s.6-3 2-4c1.6-1.1 5 0 5 0M12 15v5s3-.6 4-2c1.1-1.6 0-5 0-5"/></svg></span>
+            <h3>مشاريع يفتخر بها</h3>
+            <p>ألعاب وتطبيقات صغيرة يصممها بنفسه، ويعرضها عليكم بثقة.</p>
+          </article>
+          <article class="card feature" data-reveal>
+            <span class="feature__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span>
+            <h3>متابعة واضحة</h3>
+            <p>تعرفون مستوى طفلك أولاً بأول من خلال تقرير شهري بلغة بسيطة.</p>
+          </article>
+          <article class="card feature" data-reveal>
+            <span class="feature__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <h3>بيئة آمنة</h3>
+            <p>مجموعات صغيرة وأجواء مشجعة تجعل طفلك يسأل ويجرب دون خوف من الخطأ.</p>
+          </article>
+          <article class="card feature" data-reveal>
+            <span class="feature__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <h3>مرونة المواعيد</h3>
+            <p>نرتب مواعيد الحصص بما يتناسب مع جدول المدرسة والأنشطة الأخرى.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Parents ============ -->
+    <section class="section section--parents" id="parents" aria-labelledby="parents-title">
+      <div class="container split">
+        <div class="split__text" data-reveal>
+          <span class="eyebrow">لأولياء الأمور</span>
+          <h2 id="parents-title">أنتم في قلب الرحلة</h2>
+          <p class="lead">نؤمن أن تقدم الطفل يبدأ من شراكة حقيقية مع البيت، لذلك نضع أمامكم صورة واضحة كل شهر.</p>
+          <ul class="promises">
+            <li><span class="promise-check"><svg class="check" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>تقرير شهري يوضح مستوى طفلك في كل مادة</li>
+            <li><span class="promise-check"><svg class="check" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>عرض للمشاريع البرمجية التي أنجزها</li>
+            <li><span class="promise-check"><svg class="check" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>ملاحظات صريحة عن نقاط القوة وما يحتاج دعماً</li>
+            <li><span class="promise-check"><svg class="check" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>خطة واضحة للشهر التالي</li>
+          </ul>
+          <a class="btn btn--primary btn--lg" href="#register">تابع رحلة طفلك معنا</a>
+        </div>
+
+        <figure class="dashboard" role="img" aria-label="نموذج توضيحي للوحة متابعة ولي الأمر تعرض نسب التقدم في المواد والبرمجة" data-reveal>
+          <div class="dashboard__head">
+            <div class="dashboard__student">
+              <span class="planet planet--violet planet--avatar" aria-hidden="true"></span>
+              <div><strong>اسم الطالب</strong><span>التقرير الشهري</span></div>
+            </div>
+            <span class="tag tag--gold">عرض توضيحي</span>
+          </div>
+          <div class="dashboard__stats">
+            <div><span>الحضور</span><strong class="num text-mint">—</strong></div>
+            <div><span>المشاريع</span><strong class="num text-orange">—</strong></div>
+            <div><span>الواجبات</span><strong class="num text-violet">—</strong></div>
+          </div>
+          <div class="bars">
+            <div class="bar"><div class="bar__label"><span>الرياضيات</span><span class="num">80%</span></div><div class="bar__track"><div class="bar__fill bar__fill--orange" data-value="80"></div></div></div>
+            <div class="bar"><div class="bar__label"><span>العلوم</span><span class="num">70%</span></div><div class="bar__track"><div class="bar__fill bar__fill--mint" data-value="70"></div></div></div>
+            <div class="bar"><div class="bar__label"><span>اللغة العربية</span><span class="num">85%</span></div><div class="bar__track"><div class="bar__fill bar__fill--violet" data-value="85"></div></div></div>
+            <div class="bar"><div class="bar__label"><span>اللغة الإنجليزية</span><span class="num">75%</span></div><div class="bar__track"><div class="bar__fill bar__fill--gold" data-value="75"></div></div></div>
+            <div class="bar"><div class="bar__label"><span>البرمجة</span><span class="num">90%</span></div><div class="bar__track"><div class="bar__fill bar__fill--coral" data-value="90"></div></div></div>
+          </div>
+          <div class="dashboard__note">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2EE6A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            ملاحظة المعلم: مساحة لتعليق قصير عن تقدم الطالب وخطة الشهر القادم.
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section--band" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="eyebrow">الأسئلة</span>
+          <h2 id="faq-title">أسئلة يطرحها أولياء الأمور</h2>
+        </header>
+
+        <div class="faq-grid">
+          <article class="card faq-item" data-reveal>
+            <span class="faq-item__icon" aria-hidden="true">؟</span>
+            <div><h3>ما العمر المناسب للالتحاق؟</h3><p>برامجنا مصممة للطلاب من <span class="num">9</span> إلى <span class="num">18</span> سنة، ونقسمهم إلى ثلاث مراحل عمرية لكل منها محتوى يناسبها.</p></div>
+          </article>
+          <article class="card faq-item" data-reveal>
+            <span class="faq-item__icon" aria-hidden="true">؟</span>
+            <div><h3>هل يحتاج طفلي خبرة سابقة في البرمجة؟</h3><p>لا يحتاج أي خبرة. نبدأ من مستوى طفلك الحالي بعد تقييم بسيط، ونتدرج معه خطوة بخطوة.</p></div>
+          </article>
+          <article class="card faq-item" data-reveal>
+            <span class="faq-item__icon" aria-hidden="true">؟</span>
+            <div><h3>كيف يعمل نظام الحصص؟</h3><p>يتحدد عدد الحصص ومواعيدها حسب البرنامج المختار، وتكون الحصص في مجموعات صغيرة ليحصل كل طالب على اهتمام كافٍ.</p></div>
+          </article>
+          <article class="card faq-item" data-reveal>
+            <span class="faq-item__icon" aria-hidden="true">؟</span>
+            <div><h3>ما الأجهزة التي يحتاجها طفلي؟</h3><p>نوضح لكم التجهيزات المطلوبة قبل أول حصة، وغالباً يكفي جهاز كمبيوتر أو لابتوب بمواصفات عادية.</p></div>
+          </article>
+          <article class="card faq-item" data-reveal>
+            <span class="faq-item__icon" aria-hidden="true">؟</span>
+            <div><h3>كيف أتابع مستوى طفلي؟</h3><p>يصلكم تقرير شهري يوضح تقدمه في كل مادة وفي مسار البرمجة، مع ملاحظات المعلم وخطة الشهر التالي.</p></div>
+          </article>
+          <article class="card faq-item" data-reveal>
+            <span class="faq-item__icon" aria-hidden="true">؟</span>
+            <div><h3>ما طريقة الدفع؟</h3><p>نوضح لكم طرق الدفع المتاحة عند تأكيد الحجز، ويمكنكم السؤال عن أي تفاصيل عبر واتساب.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Registration ============ -->
+    <section class="section" id="register" aria-labelledby="register-title">
+      <div class="container">
+        <div class="register" data-reveal>
+          <div class="register__glow" aria-hidden="true"></div>
+          <div class="register__ring" aria-hidden="true"></div>
+
+          <div class="register__text">
+            <h2 id="register-title">جهّز مركبة طفلك للانطلاق</h2>
+            <p>اترك بياناتك وسنتواصل معك عبر واتساب لتحديد موعد تقييم المستوى واختيار البرنامج المناسب.</p>
+            <p class="register__privacy">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2EE6A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+              بياناتك تُستخدم فقط للتواصل معك بخصوص الحجز.
+            </p>
+          </div>
+
+          <form class="form" id="register-form" novalidate aria-label="نموذج التسجيل">
+            <div class="field">
+              <label for="parent-name">اسم ولي الأمر</label>
+              <input id="parent-name" name="parent" type="text" autocomplete="name" placeholder="اكتب اسمك" required minlength="3" aria-describedby="parent-name-error">
+              <span class="field__error" id="parent-name-error" role="alert"></span>
+            </div>
+            <div class="field">
+              <label for="whatsapp">رقم واتساب</label>
+              <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" dir="ltr" placeholder="01xxxxxxxxx" required aria-describedby="whatsapp-error">
+              <span class="field__error" id="whatsapp-error" role="alert"></span>
+            </div>
+            <div class="field">
+              <label for="child-age">عمر الطفل</label>
+              <select id="child-age" name="age" required aria-describedby="child-age-error">
+                <option value="">اختر العمر</option>
+                <option value="9-12">9 – 12 سنة</option>
+                <option value="12-15">12 – 15 سنة</option>
+                <option value="15-18">15 – 18 سنة</option>
+              </select>
+              <span class="field__error" id="child-age-error" role="alert"></span>
+            </div>
+            <button class="btn btn--primary btn--lg btn--block" type="submit">أرسل طلب الانطلاق</button>
+            <p class="form__success" id="form-success" role="status" hidden>
+              <svg class="check" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              تم استلام طلبك، وسنتواصل معك قريباً عبر واتساب.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="footer__watermark" aria-hidden="true">ASTRO CENTER</div>
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/logo-600.png" alt="شعار أسترو سنتر" width="200" height="109" loading="lazy">
+          <p>مركز تعليمي يجمع بين المواد الدراسية والبرمجة لأعمار <span class="num">9–18</span> سنة.</p>
+        </div>
+
+        <nav class="footer__col" aria-label="روابط سريعة">
+          <strong>روابط سريعة</strong>
+          <a href="#stations">المحطات</a>
+          <a href="#programs">البرامج</a>
+          <a href="#faq">الأسئلة</a>
+          <a href="#register">سجّل الآن</a>
+        </nav>
+
+        <div class="footer__col">
+          <strong>تابعنا</strong>
+          <div class="socials">
+            <a href="#" aria-label="فيسبوك" data-social="facebook"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V10H6v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h2z"/></svg></a>
+            <a href="#" aria-label="إنستجرام" data-social="instagram"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a>
+            <a href="#" aria-label="يوتيوب" data-social="youtube"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a>
+            <a href="#" aria-label="واتساب" data-social="whatsapp"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.6A8.5 8.5 0 1 1 8 19.6z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copy">© <span class="num" id="year">2026</span> أسترو سنتر. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
